@@ -1,1 +1,0 @@
-{"version":3,"sources":["cljsjs/p5.cljs"],"mappings":";;;AAGA,AAAA,AAACA,AAA0BC","names":["js/goog.exportSymbol","js/module$node_modules$p5$lib$p5"],"sourcesContent":["(ns cljsjs.p5\n  (:require [\"p5\" :as p5]))\n\n(js/goog.exportSymbol \"p5\" p5)\n"]}

@@ -1,8 +1,10 @@
 (ns acme.frontend.app
-	(:require [quil.core :as q :include-macros true]
+	(:require ["md5" :as md5]
+											[quil.core :as q :include-macros true]
 										 [quil.middleware :as m]))
 
 (defn init []
+	 (println (md5 "text"))
   (println "Hello World. Time for coffee!!!!"))
 
 (defn reload[done]
