@@ -5,5 +5,7 @@
   "devDependencies": {
     "shadow-cljs": "2.8.36"
   },
-  "dependencies": {}
+  "dependencies": {
+    "p5": "^0.8.0"
+  }
 }

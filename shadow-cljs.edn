@@ -5,7 +5,7 @@
   "src/test"]
 
  :dependencies
- []
+ [[quil "3.0.0"]]
 
  :dev-http {8080 "public"}
 
@@ -15,4 +15,10 @@
   {:target :browser
   	:devtools {:after-load  acme.frontend.app/reload}
    :modules {:main {:init-fn acme.frontend.app/init}}
+   }
+  :app2
+  {:target :browser
+  	:output-dir "public/js"
+  	:devtools {:after-load  acme.frontend.app2/reload}
+   :modules {:main {:init-fn acme.frontend.app2/init}}
    }}}
